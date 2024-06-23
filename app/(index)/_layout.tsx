@@ -7,7 +7,6 @@ import { useColorMode } from '@gluestack-style/react';
 
 
 export default function TabLayout() {
-  const colorMode = useColorMode()
   return (
     <Tabs screenOptions={{
       tabBarActiveTintColor: config.tokens.colors.purple600

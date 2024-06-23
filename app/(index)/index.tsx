@@ -7,9 +7,9 @@ import { Text, View } from '@gluestack-ui/themed';
 export default function HomeScreen() {
   const navigation = useNavigation();
 
-  useEffect(() => {
-    navigation.setOptions({ headerShown: false });
-  }, [navigation]);
+  // useEffect(() => {
+  //   navigation.setOptions({ headerShown: false });
+  // }, [navigation]);
 
   return (
     <View>
